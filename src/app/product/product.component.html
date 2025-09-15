@@ -1,0 +1,22 @@
+<table class="table">
+<thead>
+    <tr>
+        <th>Product Number</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Location</th>
+        <th>Details</th>
+        <th>Action</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor = "let product of products; let i = index;">
+        <th>{{product.id}}</th>
+        <td>{{product.name}}</td>
+        <td>{{product.price}}</td>
+        <td>{{product.location}}</td>
+        <td>{{product.details}}</td>
+        <td><a [routerLink] = "['/details',product.id]">View Details</a></td>
+    </tr>
+</tbody>
+</table>

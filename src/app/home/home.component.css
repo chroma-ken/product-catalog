@@ -1,0 +1,25 @@
+.background {
+    position: relative;
+    display: inline-block;
+}
+
+.content {
+   position: relative;
+   height: 150vh;
+   width: 100vw;
+   object-fit: cover;
+
+}
+
+.information {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-family: inherit;
+}
+.my-btn {
+    margin-right: 15px;
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 20px;
+}

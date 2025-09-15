@@ -1,0 +1,23 @@
+<div *ngIf = "product">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <table style="font-size: 15px;">
+                <tr>
+                    <th>{{product.name}}</th>
+                </tr>
+                <tr>
+                    <th>{{product.price}}</th>
+                </tr>
+                <tr>
+                    <th>{{product.location}}</th>
+                </tr>
+                <tr>
+                    <th>{{product.details}}</th>
+                </tr>
+                <tr>
+                    <td class="card-title"><a class="btn btn-success" [routerLink] = "'/product'">Go Back</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

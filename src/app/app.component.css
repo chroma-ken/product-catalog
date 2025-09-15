@@ -1,0 +1,50 @@
+:host {
+  display: block;
+  background: white;
+  min-height: 100vh;
+}
+
+footer {
+  background: white;
+  text-align: center;
+  padding: 3px;
+  transition: background-color 0.3s;
+}
+
+footer:hover {
+    background-color: rgb(125, 124, 124);
+}
+
+
+.nav {
+    background-color: white;
+    display: flex;
+    transition: background-color 0.3s;
+}
+.nav:hover {
+    background-color: rgb(125, 124, 124);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.websiteName {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container a {
+    color: black;
+    display: flex;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.links {
+    display: flex;
+    gap: 80px;
+    font-size: 20px;
+}
