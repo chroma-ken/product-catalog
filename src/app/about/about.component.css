@@ -1,0 +1,102 @@
+.about-us-container {
+  color: #e6e6e6;
+}
+
+/* Company Name */
+.company-name {
+  font-size: 2.5rem;
+  color: #e63946;
+  font-weight: 700;
+}
+
+.company-description {
+  color: #ccc;
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Info Cards */
+.info-card {
+  background: #1a1a1a;
+  border: 1px solid #2c2c2c;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.info-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(255,0,0,0.4);
+}
+.info-card h3 {
+  color: #e63946;
+  margin-bottom: 0.5rem;
+}
+
+/* Badges for Values */
+.badge-value {
+  background: #2c2c2c;
+  border: 1px solid #3a3a3a;
+  color: #fafafa;
+  padding: 0.5rem 0.8rem;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+.badge-value:hover {
+  background: #e63946;
+}
+
+/* Services */
+.service-card {
+  background: #1e1e1e;
+  color: #f0f0f0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(255,0,0,0.3);
+}
+
+/* Stats */
+.stat-card {
+  background: #2c2c2c;
+  color: #fafafa;
+}
+.stat-card h3 {
+  font-size: 1.8rem;
+  color: #e63946;
+  margin-bottom: 0.25rem;
+}
+
+/* Team */
+.team-card {
+  background: #1e1e1e;
+  padding: 1rem;
+}
+.team-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #e63946;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+/* Social Buttons */
+.social-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #2a2a2a;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+.social-btn:hover {
+  background: #e63946;
+  transform: translateY(-3px);
+}
+.social-btn i {
+  font-size: 1.2rem;
+}
